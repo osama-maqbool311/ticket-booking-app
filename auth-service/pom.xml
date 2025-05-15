@@ -8,7 +8,7 @@
         <groupId>com.daas</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-    <artifactId>booking-service</artifactId>
+    <artifactId>auth-service</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
@@ -41,9 +41,8 @@
             <artifactId>quarkus-smallrye-jwt</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.quarkus</groupId>
-            <artifactId>quarkus-test-security</artifactId>
-            <scope>test</scope>
+            <groupId>io.smallrye</groupId>
+            <artifactId>smallrye-jwt-build</artifactId>
         </dependency>
     </dependencies>
 
